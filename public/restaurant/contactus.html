@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Suspiciously Delicious Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="menu.html">Our Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="team.html">Meet The Team</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="coupons.html">Coupon Codes</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+<br>
+
+<div class="holder">
+    <h1 class="top bigHeader">Suspiciously Delicious Restaurant!</h1>
+    <h2 class="top underHeader">Contact Us</h2>
+
+    <hr>
+    <h3 class="header">Contact Form:</h3>
+    <p class="subheader">Put your information down below and hit submit!</p>
+    <p class="italics">I'm sure we'll respond...eventually...maybe.</p>
+    <form>
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName"placeholder="John">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName"placeholder="Smorf">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailText" placeholder="john.smorf@smorfmail.com">
+            <small id="emailText" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="textArea">Tell us anything!</label>
+            <textarea class="form-control" id="textArea" rows="3"></textarea>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Add me to the mailing list</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <footer>
+        <hr>
+        <p class="italics">No trademarks here. All lefts reserved. Alrights belong to Matthew McConaughey.</p>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
